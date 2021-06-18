@@ -1,36 +1,121 @@
-#batichica {
-    background-color: white;
-    margin:0%;
-}
+header {
+    background-image: url('./img/compu\ y\ taza\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    margin:0px;
+    
+}    
+
 
 img {
    
-    width: 100px;
-    height: 100px;
-    left: 670px;
-    top: 21px;
-    right: 600px;
-    position: absolute;
-width: 100px;
-height: 147px;
-left: 670px;
-top: 21px;
+width: 120px;
+height: 120px;
+margin: 0px;
+position: relative;
+margin-left:850px;
+border-radius: 50%;
+margin-top: 75px;
+
     
 
 }
 
-h1{
-    font-size: 50px;
+/*SECCIÓN DE NOMBRE*/
+
+#Nombre
+{ 
     text-align: center;
     background-color: #C4C4C4;
     text-transform: uppercase;
-    margin: 200px 0px 0px 0px ;
+    margin: 0px;
+    height: 70px;
+    text-align: center;
+    
 }
+
+#IT {
+    font-size: 20px;
+    color:#CF597D ;
+    font-style: italic;
+    font-family: Verdana, sans-serif;
+}
+
+
+/*SOBRE MI*/
+
+#secc{
+    margin-top: 30px ;
+    position: relative;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color:hsl(60, 100%, 75%);
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    box-sizing: auto;
+    text-align: right;
+
+  
+  
+}
+
+#enlace{
+
+color: rgb(255, 128, 0);
+font-family: 'arial', cursive;
+font-size: 20px;
+margin-right: 40px;
+
+
+
+}
+
+#sobremi{
+    background-image: url(./img/Flores.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+}
+
+#Descripcion {
+background-color: wheat;
+margin-top: 150px;
+font-size: 20px;
+font-style: italic;
+width: 100%;
+
+
+}
+
+#p1{
+    color: #922949;
+}
+
+#p2{
+    color: #299283;
+}
+
+#p3{
+    color: #928E29;
+
+}
+
+/*CUERPO*/
 
 h2{
     font-size: 20px;
     background-color:#D5A3F8 ;
     text-transform: uppercase;
+
+
 }
 
 ul{
@@ -42,7 +127,7 @@ ul{
 }
 
 #box{
-    margin: 150px 300px 200px 300px;
+    margin: 120px 300px 200px 300px;
     
 }
 
@@ -64,7 +149,11 @@ div{
     margin-bottom: 0%;
 
 }
+
+/*FOOTER*/
+
 #foot {
     background-color: black;
     
 }
+
