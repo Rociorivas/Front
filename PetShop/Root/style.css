@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+#barra1{
+    background-color: #000;
+    background-size: cover;
+    color:#FBFBEE;
+    display: flex;
+    
+}
+
+#items{
+    align-items: center;
+    margin-left: 950px;
+}
+
+#barra2{
+    background-color: #D0C922;
+    background-size: cover;
+    color: white;
+    display: flex;
+  
+
+}
+
+
+header {
+    margin: 0;
+    height: fit-content;
+    padding: 0%;
+}
+
+
+#banner{
+    background-image: url('./img/pettshop.jpg');
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    
+    
+}
+
+#texto{
+    text-align: right;
+    margin-top: 100px;
+    margin-left: 950px;
+    position: absolute;
+
+}
+
+#img1{
+    margin-top: 100px;
+}
+
+#p1{
+    background-color:white;
+     margin-top: 10px;
+
+
+}
+
+#p3{
+    background-color: #D09B22;
+    background-size: cover;
+    width: 115px;
+    margin-left: 50px;
+    font-weight: bold;
+   
+
+}
+
+h2{
+    font-size: 30px;
+    color:#664B0E ;
+    text-align: center;
+}
+
+#cuerpo{
+    text-align: center;
+    
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+#form{
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 200px;
+    background-color: #E5BB5D ;
+    text-align: center;
+}
+
+#contacto{
+    background-color: #3C2313;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0%;
+}
+
+#derechos{
+    color: #FBFBEE;
+    background-color: #000;
+    margin-top: 0%;
+    
+    
+}
+
+footer{
+    background-size: cover;
+    margin: 0%;
+    height: fit-content;
+    padding: 0%;
+
+}
