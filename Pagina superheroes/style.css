@@ -23,7 +23,7 @@ h1{
 
 /*Carts*/
 
-#carts{
+#cards{
 
     display: inline-flex;
     margin-top: 100px;
@@ -114,4 +114,35 @@ footer{
     text-align: center;
     
   
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 640px) {
+        .m-hide{
+            display: none;
+        }
+    
+    #cards{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0%;
+    
+
+}  
+
+#perfil{
+    align-items: stretch;
+   
+}
+
+#harley, #batman1, #batman2{
+    margin-bottom: 5%;
+}
+
 }
